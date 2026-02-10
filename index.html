@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Eyes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Coiny&family=Iceland&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="head-container">
+            <img id="flag-1" class="non-visible" src="./images/triangular-flag-google.png" alt="flag icon">
+            <h1 id="head-1">Hit the Button</h1>
+            <img id="flag-2" class="non-visible" src="./images/triangular-flag-google.png" alt="flag icon">
+        </div>
+        <div class="dice">
+            <p>Player 1</p>
+            <img id="dice-1" class="dice-img" src="./images/dice6.png" alt="dice six">
+        </div>
+        <div class="dice">
+            <p>Player 2</p>
+            <img id="dice-2" class="dice-img" src="./images/dice6.png" alt="dice six">
+        </div>
+        <div>
+            <button onclick="tossDice()">Hit Me</button>
+        </div>
+        <footer>&copy KMF - All rights reserved.</footer>
+    </div>
+    <script src="index.js" charset="UTF-8"></script>
+</body>
+
+</html>
