@@ -96,7 +96,7 @@ footer {
     }
 }
 
-@media (max-width: 480px) {
+/*@media (max-width: 480px) {
     .visible {
         height: 20px;
         padding: 5px;
@@ -123,4 +123,5 @@ footer {
         padding: 10px 20px;
         margin-top: 100px;
     }
-}
+
+}*/
